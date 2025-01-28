@@ -1,0 +1,33 @@
+@model IEnumerable<GerenciadorCobrancas.Models.Cobranca>
+
+<h2>Cobranças</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Cliente</th>
+            <th>Documento</th>
+            <th>Valor</th>
+            <th>Vencimento</th>
+            <th>Situação</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var cobranca in Model)
+        {
+            <tr>
+                <td>@cobranca.Id</td>
+                <td>@cobranca.Cliente</td>
+                <td>@cobranca.Documento</td>
+                <td>R$ @cobranca.Valor."N2\"</td>
+                <td>@cobranca.Vencimento.(dd/MM/yyyy\")</td>
+                <td>@cobranca.Situacao</td>
+                <td>
+                    <a href="/Cobranca/Delete/@cobranca.Id" class="btn btn-danger">Remover</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<a href="/Cobranca/Create" class="btn btn-primary">Adicionar Nova Cobrança</a>

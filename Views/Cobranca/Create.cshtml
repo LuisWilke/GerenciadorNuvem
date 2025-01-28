@@ -1,0 +1,29 @@
+@model GerenciadorCobrancas.Models.Cobranca
+
+<h2>Nova Cobrança</h2>
+<form method="post">
+    <div class="form-group">
+        <label>Cliente</label>
+        <input type="text" name="Cliente" class="form-control" required>
+    </div>
+    <div class="form-group">
+        <label>Documento</label>
+        <input type="text" name="Documento" class="form-control" required>
+    </div>
+    <div class="form-group">
+        <label>Valor</label>
+        <input type="number" name="Valor" step="0.01" class="form-control" required>
+    </div>
+    <div class="form-group">
+        <label>Vencimento</label>
+        <input type="date" name="Vencimento" class="form-control" required>
+    </div>
+    <div class="form-group">
+        <label>Situação</label>
+        <select name="Situacao" class="form-control" required>
+            <option>Pendente</option>
+            <option>Paga</option>
+        </select>
+    </div>
+    <button type="submit" class="btn btn-success">Salvar</button>
+</form>
