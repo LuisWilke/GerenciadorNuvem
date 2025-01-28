@@ -95,3 +95,4 @@ C:\Users\wilke\GerenciadorCobrancas\GerenciadorNuvem\obj\Debug\net9.0\refint\Ger
 C:\Users\wilke\GerenciadorCobrancas\GerenciadorNuvem\obj\Debug\net9.0\GerenciadorNuvem.pdb
 C:\Users\wilke\GerenciadorCobrancas\GerenciadorNuvem\obj\Debug\net9.0\GerenciadorNuvem.genruntimeconfig.cache
 C:\Users\wilke\GerenciadorCobrancas\GerenciadorNuvem\obj\Debug\net9.0\ref\GerenciadorNuvem.dll
+C:\Users\wilke\GerenciadorCobrancas\GerenciadorNuvem\obj\Debug\net9.0\GerenciadorNuvem.sourcelink.json

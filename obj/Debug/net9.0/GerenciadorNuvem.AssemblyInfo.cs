@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GerenciadorNuvem")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5d4392ab12a62f7ee50ae2659fcaac2b7b14f577")]
 [assembly: System.Reflection.AssemblyProductAttribute("GerenciadorNuvem")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GerenciadorNuvem")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

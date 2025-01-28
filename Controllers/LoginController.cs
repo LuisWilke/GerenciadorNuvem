@@ -12,9 +12,9 @@ namespace GerenciadorCobrancas.Controllers
 
         // Processa o login (a lógica de autenticação viria aqui)
         [HttpPost]
-        public IActionResult Index(string email, string senha)
+        public IActionResult Index(string cnpj, string email, string senha)
         {
-            if (email == "admin@gmail.com" && senha == "1234")
+            if (email == "admin@gmail.com" && senha == "1234" && cnpj == "12345678")
             {
                 return RedirectToAction("Index", "Cobranca");
             }
